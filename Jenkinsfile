@@ -1,8 +1,8 @@
 pipeline {
     agent any
     tools {
-        maven 'maven latest_version'
-        jdk '8.8'
+        maven 'maven_latest_version'
+        jdk '1.8'
         }
 
 
