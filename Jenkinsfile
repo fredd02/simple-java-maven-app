@@ -12,7 +12,7 @@ pipeline {
             steps{
                 echo "PATH = ${PATH}"
                 echo "M2_HOME = ${M2_HOME}"
-                echo 'test3'
+                echo 'test4'
 
             }
 
