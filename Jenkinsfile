@@ -4,6 +4,9 @@ pipeline {
         maven 'maven3.5.4'
         jdk 'jdk1.8'
     }
+    triggers {
+            pollSCM('') //Empty quotes tells it to build on a push
+        }
     stages {
         stage('initialize'){
             steps{
