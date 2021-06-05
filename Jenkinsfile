@@ -9,7 +9,7 @@ pipeline {
             steps{
                 echo "PATH = ${PATH}"
                 echo "M2_HOME = ${M2_HOME}"
-                echo 'test2'
+                echo 'test3'
 
             }
 
